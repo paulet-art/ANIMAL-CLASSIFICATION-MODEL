@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Animal Detection App</title>
+</head>
+<body>
+    <h1>Animal Detection App</h1>
+    <form method="POST" action="/predict" enctype="multipart/form-data">
+        <label for="image">Upload an image:</label>
+        <input type="file" id="image" name="image" accept="image/*">
+        <br><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
